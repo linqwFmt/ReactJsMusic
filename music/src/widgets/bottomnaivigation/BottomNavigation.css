@@ -1,0 +1,26 @@
+.bottomNavigation-container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.bottomItem{
+    display: flex;
+    flex:1;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    width:40px;
+    height: 40px;
+}
+.lable{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.selectlable{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

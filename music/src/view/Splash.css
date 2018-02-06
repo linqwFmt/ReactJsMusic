@@ -1,0 +1,24 @@
+.splash-logo{
+position:fixed;  
+ width:180px; 
+ height:180px;  
+ top:50%;   
+left:50%;     
+margin-top:-90px; 
+margin-left:-90px;
+border:2px solid;
+border-radius:999px;
+
+transform-origin:50%  50%;
+animation: myrotate 3s;
+}
+@keyframes myrotate{
+    from { transform: rotate(0deg); 
+        opacity:0.1;
+    }
+    to { transform: rotate(360deg); 
+        opacity:1}
+}
+.splash-container{
+    flex:1;
+}

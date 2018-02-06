@@ -1,0 +1,16 @@
+.title-container{
+    height: 45px;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:crimson
+
+}
+.title-center{
+    display: flex;
+}
+.title-center-lable{
+    font-size: 20px;
+    color:white
+}

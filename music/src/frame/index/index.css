@@ -1,0 +1,19 @@
+.ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.index-container{
+    flex:1
+}
+.music-img{
+    width: 100%;
+    height: 150px;
+}
+.music-item-container{
+    display: flex;
+    flex-direction: column;
+}
+.music-item-title{
+    padding: 10px 10px 10px 10px
+}
